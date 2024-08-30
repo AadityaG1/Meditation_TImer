@@ -13,4 +13,11 @@ Enhance your meditation practice with our elegant, user-friendly web app. Design
 
 - **HTML5:** Structure and content of the app.
 - **CSS3:** Styling and layout for an aesthetic and responsive design.
-- **JavaScript:** Core functionality, including the Web Audio API for sound management and the timer logic.
+- **JavaScript:** Core functionality, including timer logic and sound management.
+
+## How to Use the App 🚀
+
+1. **Start the Timer:** Set your desired meditation time using the intuitive timer interface.
+2. **Select Your Soundscape:** Choose from rain, forest, and wave sounds to create a calming background.
+3. **Begin Your Session:** Start the timer and follow the synchronized breathing exercise for a deeper meditation experience.
+4. **Automatic Stop:** The app automatically stops all sounds and exercises once the timer expires, ensuring a smooth end to your session.
