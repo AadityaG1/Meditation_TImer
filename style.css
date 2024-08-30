@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #2c3e50;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #34495e;
+}
+
+#timer,
+#breathing-exercise,
+#soundscape {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#time-display {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.timer-controls button,
+#start-breathing,
+#play-soundscape,
+#stop-soundscape {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#time-range {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#breathing-circle {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #1abc9c;
+    border-radius: 50%;
+    transition: transform 4s ease-in-out;
+}
+
+#breathing-instructions {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.sound-controls {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.sound-controls div {
+    text-align: center;
+}
+
+.sound-controls input {
+    width: 100px;
+}
